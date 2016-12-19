@@ -5,17 +5,21 @@
         <link rel="stylesheet" href="css/card-flip.css">
     </head>
     <body>
-        <sc-card>
-            <div class="front">
+        <sc-card axis="random" duration="800">
+
+          <div class="umbra"></div>
+          <div class="penumbra"></div>
+
+            <div class="front" tabindex="-1">
                 <h1>Infinity</h1>
                 <button>Flip card</button>
             </div>
 
-            <div class="back">
+            <div class="back" tabindex="-1">
                 <button>Flip card</button>
             </div>
         </sc-card>
-        
+
         <script src="js/card-flip.js"></script>
     </body>
 </html>
