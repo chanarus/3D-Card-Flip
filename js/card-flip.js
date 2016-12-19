@@ -81,8 +81,8 @@ class FlipCard extends HTMLElement {
           .onfinish = _ => {
             this._locked = false;
             this._side = (this._side === FlipCard.SIDES.FRONT) ?
-                SCFlipCard.SIDES.BACK :
-                SCFlipCard.SIDES.FRONT;
+                FlipCard.SIDES.BACK :
+                FlipCard.SIDES.FRONT;
           };
     }
 
